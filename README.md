@@ -17,3 +17,5 @@ Eсть таблицы с действиями `actions`, специализац
 • Эндпоинт описания API: `/docs` и `/openapi.json`<br>
 • Добавил пагинацию для GET `actions`, `specializations`, `tools`.<br>
 • При необходимости можно дополнить тестами.
+## Стек
+FastAPI, SQLAlchemy, pydantic, uvicorn
