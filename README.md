@@ -14,6 +14,6 @@ Eсть таблицы с действиями `actions`, специализац
 &emsp;`docker-compose build`<br>
 &emsp;`docker-compose up`<br>
 &emsp;Порт по-умолчанию 8000<br>
-• Описание API: `/docs` и `/openapi.json`<br>
+• Эндпоинт описания API: `/docs` и `/openapi.json`<br>
 • Добавил пагинацию для GET `actions`, `specializations`, `tools`.<br>
 • При необходимости можно дополнить тестами.
