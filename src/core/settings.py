@@ -11,7 +11,7 @@ class Settings(BaseSettings):
     db_username: str = os.getenv('db_username', '')
     db_password: str = os.getenv('db_password', '')
     db_host: str = os.getenv('db_host', '')
-    db_port: int = os.getenv('db_port', '')
+    db_port: int = os.getenv('db_port', 5432)
     db_name: str = os.getenv('db_name', '')
     db_url: str = os.getenv('db_url', '')
 
